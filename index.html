@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin-Up Store | Semi Joias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="FAVICONNOVO.png">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background: linear-gradient(180deg, #232323 0%, #6d542b 100%);
+            font-family: 'Montserrat', Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .main-content {
+            width: 100%;
+            max-width: 480px;
+            margin: 48px auto 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .logo-circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: #b08a4a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.18);
+        }
+        .logo-circle img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        .title {
+            font-size: 1.6rem;
+            font-weight: 700;
+            margin: 0 0 8px 0;
+            text-align: center;
+        }
+        .subtitle {
+            font-size: 1.05rem;
+            font-weight: 400;
+            margin-bottom: 32px;
+            color: #ffe6b8;
+            text-align: center;
+        }
+        .btn-link {
+            width: 100%;
+            background: #fff;
+            color: #232323;
+            border: 4px solid #ff2fb0;
+            border-radius: 40px;
+            padding: 18px 20px;
+            margin: 0 0 24px 0;
+            font-size: 1.15rem;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            box-shadow: 0 4px 16px rgba(255,47,176,0.10);
+            cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.1s;
+            text-decoration: none;
+            justify-content: center;
+            gap: 18px;
+        }
+        .btn-link .avatar {
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            background: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .btn-link .avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .btn-link span.text {
+            flex: 1;
+            text-align: center;
+        }
+        .btn-link:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 24px rgba(255,47,176,0.18);
+        }
+        .footer-salmo {
+            width: 100%;
+            text-align: center;
+            margin: 32px 0 12px 0;
+        }
+        .footer-salmo span {
+            font-size: 0.55rem;
+            color: #ffe6b8;
+            opacity: 0.7;
+        }
+        @media (max-width: 600px) {
+            .main-content {
+                max-width: 98vw;
+                margin: 24px auto 0 auto;
+            }
+            .logo-circle {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 18px;
+            }
+            .btn-link {
+                font-size: 1rem;
+                padding: 14px 10px;
+                gap: 10px;
+            }
+            .btn-link .avatar {
+                width: 28px;
+                height: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-content">
+        <div class="logo-circle">
+            <img src="Pin-Up Store logo.png" alt="Logo Pin-Up Store">
+        </div>
+        <div class="title">Pin-Up Store</div>
+        <div class="subtitle">Transforme seu visual com elegância e atitude.<br>A Pin-Up Bijout tem o brilho que você merece! 💖</div>
+        <a class="btn-link" href="https://pinupbijout.lojavirtualnuvem.com.br/" target="_blank">
+            <span class="avatar"><img src="FAVICONNOVO.png" alt="Avatar Pin-Up"></span>
+            <span class="text">Compre pelo Site 🛒</span>
+        </a>
+        <a class="btn-link" href="https://wa.me/message/5KSNCXHN4A2QH1" target="_blank">
+            <span class="avatar"><img src="FAVICONNOVO.png" alt="Avatar Pin-Up"></span>
+            <span class="text">Compre pelo WhatsApp ✨</span>
+        </a>
+        <a class="btn-link" href="https://wa.me/message/5KSNCXHN4A2QH1" target="_blank">
+            <span class="avatar"><img src="FAVICONNOVO.png" alt="Avatar Pin-Up"></span>
+            <span class="text">SAC, Dúvidas Fale Conosco 🎀</span>
+        </a>
+        <a class="btn-link" href="#">
+            <span class="avatar"><img src="FAVICONNOVO.png" alt="Avatar Pin-Up"></span>
+            <span class="text">Nossa Loja Shopee (em construção) 🔥</span>
+        </a>
+    </div>
+    <footer class="footer-salmo">
+        <span>Salmos 67:6-7</span>
+    </footer>
+</body>
+</html> 
